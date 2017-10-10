@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/coord_fragment"
+    android:padding="16dp"
+    tools:context="com.cristhoper.coordapp.fragments.CoordFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/coordX"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20sp"
+        tools:text="Coordinate X" />
+
+    <TextView
+        android:id="@+id/coordY"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="35dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20sp"
+        tools:text="Coordinate Y" />
+
+    <EditText
+        android:id="@+id/etBustop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:hint="Nombre del paradero"/>
+    <Button
+        android:id="@+id/btnSendCoords"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        style="@style/NoCapTextButton"
+        android:text="@string/sendCoords"/>
+
+</LinearLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CoordApp</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="start_fragment">Seleccionar Coordenadas</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="sendCoords">Enviar Coordenadas</string>
+</resources>
